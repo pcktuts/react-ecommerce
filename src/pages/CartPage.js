@@ -1,12 +1,11 @@
-
-
+import FullWidthLayout from "./layout/FullWidthLayout";
+import NavBarComponent from "../components/NavBarComponent";
 function CartPage() {
     return (
-        <>
-      <div className="App">
-        Cart page
-      </div>
-      </>
+      <FullWidthLayout>
+      <NavBarComponent/>
+      This is cart page
+    </FullWidthLayout>
     );
   }
   

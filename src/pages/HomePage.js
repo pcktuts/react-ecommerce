@@ -1,10 +1,11 @@
-
-
+import FullWidthLayout from "./layout/FullWidthLayout";
+import NavBarComponent from "../components/NavBarComponent";
 function HomePage() {
     return (
-      <div className="App">
-        Home page
-      </div>
+      <FullWidthLayout>
+        <NavBarComponent/>
+        This is home page
+      </FullWidthLayout>
     );
   }
   
